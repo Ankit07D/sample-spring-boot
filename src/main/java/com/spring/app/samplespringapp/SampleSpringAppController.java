@@ -16,12 +16,12 @@ public class SampleSpringAppController {
 
 
 	@GetMapping(path = "/sample")
-	public String getHelloPathResponse() {
+	public String getSampleResponse() {
 		return "You Called Sample !!! ";
 	}
 
 	@GetMapping(path = "/sample/api")
-	public String getHelloPathResponse() {
+	public String getSampleAPIResponse() {
 		return "You Called Sample API !!! ";
 	}
 
